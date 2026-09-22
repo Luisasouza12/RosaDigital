@@ -19,7 +19,7 @@ Sistema web desenvolvido como projeto de extensão para apoiar a organização d
 4. Execute:
    `npm start`
 5. Abra no navegador:
-   `http://localhost:3000`
+(https://rosadigital.onrender.com/)
 
 Não é necessário executar `npm install`, pois esta versão utiliza apenas recursos nativos do Node.js.
 

@@ -29,7 +29,7 @@ async function api(req,res,url){
       const row={id:id(),...b,createdAt:now,updatedAt:now}; db[resource].push(row); writeDB(db); return send(res,201,row);
     }catch(e){return send(res,400,{error:'Dados inválidos.'});}
   }
-  if(req.method==='PUT' && resource && itemId && ['people','families','workshops'].includes(resource)){
+  if(req.method==='PUT' && resource && itemId && ['people','families','workshops','attendances'].includes(resource)){
     try{const b=await body(req); const i=db[resource].findIndex(x=>x.id===itemId); if(i<0)return send(res,404,{error:'Registro não encontrado.'}); db[resource][i]={...db[resource][i],...b,id:itemId,updatedAt:new Date().toISOString()}; writeDB(db); return send(res,200,db[resource][i]);}catch(e){return send(res,400,{error:'Dados inválidos.'});}
   }
   if(req.method==='DELETE' && resource && itemId && ['people','families','workshops','attendances'].includes(resource)){

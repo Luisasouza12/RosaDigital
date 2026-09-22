@@ -1,5 +1,20 @@
 {
-  "people": [],
+  "people": [
+    {
+      "id": "0d88b247-3982-460f-b3d6-8cad94ef0311",
+      "name": "Luisa",
+      "phone": "11954574365",
+      "birth": "2006-10-08",
+      "address": "Rua Fulano da Silva",
+      "workshopIds": [
+        "oficina-pilates",
+        "oficina-pintura"
+      ],
+      "notes": "Faz todas as oficinas",
+      "createdAt": "2026-09-22T19:45:35.823Z",
+      "updatedAt": "2026-09-22T19:45:35.823Z"
+    }
+  ],
   "families": [],
   "workshops": [
     {
@@ -13,5 +28,26 @@
       "active": true
     }
   ],
-  "attendances": []
+  "attendances": [
+    {
+      "id": "8ecb9915-f1ab-49ec-88b5-e3ae1b8b0f6f",
+      "personId": "0d88b247-3982-460f-b3d6-8cad94ef0311",
+      "workshopId": "oficina-pintura",
+      "date": "2026-09-22",
+      "status": "present",
+      "notes": "",
+      "createdAt": "2026-09-22T19:52:32.282Z",
+      "updatedAt": "2026-09-22T19:52:32.282Z"
+    },
+    {
+      "id": "4fa58fb6-7a8d-4645-b4d4-af03fe8806bf",
+      "personId": "0d88b247-3982-460f-b3d6-8cad94ef0311",
+      "workshopId": "oficina-pilates",
+      "date": "2026-09-02",
+      "status": "present",
+      "notes": "",
+      "createdAt": "2026-09-22T19:52:46.920Z",
+      "updatedAt": "2026-09-22T19:52:46.920Z"
+    }
+  ]
 }

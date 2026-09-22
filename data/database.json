@@ -1,0 +1,17 @@
+{
+  "people": [],
+  "families": [],
+  "workshops": [
+    {
+      "id": "oficina-pilates",
+      "name": "Pilates",
+      "active": true
+    },
+    {
+      "id": "oficina-pintura",
+      "name": "Pintura",
+      "active": true
+    }
+  ],
+  "attendances": []
+}

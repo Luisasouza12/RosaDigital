@@ -1,0 +1,1 @@
+{"name":"rosa-digital","version":"1.0.0","private":true,"description":"Sistema de gestão para a Associação Rosa de Ouro","scripts":{"start":"node server.js","dev":"node server.js"},"engines":{"node":">=18"}}
